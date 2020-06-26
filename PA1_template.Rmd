@@ -79,5 +79,3 @@ ggplot(avgsteps2, aes(x = interval, y = mean.steps,col=weekday)) + geom_line() +
 dev.copy(png,"plot4.png", width=480, height=480)
 dev.off()
 ```
-
-
